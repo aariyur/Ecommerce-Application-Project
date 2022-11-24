@@ -9,6 +9,7 @@ const Home = ({ products, bannerData }) => {
   return (
     <>
       <HeroBanner heroBanner={bannerData.length && bannerData[0]}  />
+      <FooterBanner footerBanner={bannerData && bannerData[0]} />
 
       <div className="products-heading">
         <h2>Best Selling Products</h2>
@@ -19,7 +20,7 @@ const Home = ({ products, bannerData }) => {
         {products?.map((product) => <Product key={product._id} product={product} />)}
       </div>
 
-      <FooterBanner footerBanner={bannerData && bannerData[0]} />
+      
     </>
   )
 }
