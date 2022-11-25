@@ -5,6 +5,7 @@ import { urlFor } from '../lib/client'
 const HeroBanner = ({ heroBanner}) => {
   return (
     <div className='hero-banner-container'>
+      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <div>
         <p className = "beats-solo">{heroBanner.smallText}</p>
         <h3>{heroBanner.midText}</h3>
