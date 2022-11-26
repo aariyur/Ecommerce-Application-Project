@@ -428,10 +428,10 @@ padding: 30px 65px;
   transition: opacity 0.3s;
 }
 .btn:hover{
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .btn:active{
-  opacity: 0.7;
+  opacity: 0.5;
 }
 .product-detail-container{
   display: flex;
@@ -459,15 +459,16 @@ padding: 30px 65px;
   border-radius: 8px;
   background-color: #ffffff;
   border-color: #05717b;
- border: solid;
- border-width: 0.5px;
+  border: solid;
+  border-width: 0.5px;
   width: 70px;
   height: 70px;
   cursor: pointer;
+  transform: scale(1, 1);
 }
 
 .selected-image{
-  background-color:#c0c0c0;
+  background-color: #ffffff;
 }
 .reviews{
   color: #3486d3;
@@ -521,10 +522,10 @@ padding: 30px 65px;
   transition:  opacity 0.2s ease;
 }
 .buttons .add-to-cart:hover{
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .buttons .add-to-cart:active{
-  opacity: 0.7;
+  opacity: 0.5;
 }
 .buttons .buy-now{
   width: 200px;
@@ -541,10 +542,10 @@ padding: 30px 65px;
   transition: opacity 0.2s ease;
 }
 .buttons .buy-now:hover{
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .buttons .buy-now:active{
-  opacity: 0.7;
+  opacity: 0.5;
 }
 .quantity-desc{
   border: 1px solid gray;
